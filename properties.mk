@@ -15,3 +15,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.camera.CDS=off \
     persist.vendor.camera.video.CDS=off
+
+# Blur
+PRODUCT_PRODUCT_PROPERTIES += \
+persist.sys.sf.disable_blurs=1
